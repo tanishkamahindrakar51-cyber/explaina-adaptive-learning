@@ -1,52 +1,73 @@
-# Explaina — Smarts Start Here
+# Explaina — Adaptive Learning Platform
 
-## Overview
+Explaina is an adaptive learning system that personalizes explanations and video recommendations based on a student's comprehension level.
 
-Explaina is an adaptive learning platform designed to address the limitations of standardized education systems. 
-Traditional learning models often encourage short-term memorization rather than conceptual understanding.
+---
 
-Explaina aims to personalize learning by adjusting explanations and content recommendations based on individual comprehension levels.
+## 🚀 The Problem
 
-## Problem Statement
+Most educational content is standardized.  
+Students with different understanding levels receive the same explanation, leading to confusion or shallow learning.
 
-Students frequently rely on last-minute exam preparation, leading to low retention and shallow understanding. 
-Additionally, existing educational video resources are standardized and do not account for differences in grasping ability.
+---
 
-## Research Basis
+## 💡 The Solution
 
-A survey on student learning habits indicated:
+Explaina adapts learning dynamically by:
 
-- Strong preference for videos and animations over textbook reading.
-- Lack of personalized explanation depth.
-- Difficulty finding content aligned with individual understanding speed.
+- Assessing user comprehension through a diagnostic test
+- Classifying understanding level
+- Generating level-specific explanations
+- Recommending curated video content
+- Suggesting related follow-up questions
 
-These findings motivated the development of an adaptive solution.
+---
 
-## System Workflow
+## 🔍 How It Works
 
-1. The user completes a structured assessment to evaluate comprehension and focus level.
-2. The user submits a subject-specific doubt.
-3. The system generates:
-   - A theoretical explanation calibrated to the user’s comprehension level.
-   - A contextually relevant video aligned with that level.
+1. User takes a diagnostic test  
+2. System determines comprehension level  
+3. User submits a doubt/topic  
+4. Explanation is generated based on level  
+5. Video recommendations are provided  
+6. Related adaptive questions are suggested  
 
-## MVP Implementation
+---
 
-The MVP is developed using an AI-powered web development platform (Base44).
+## 🖼 Product Screenshots
 
-Core capabilities:
-- Comprehension-level assessment module
-- Doubt submission interface
-- AI-generated adaptive explanations
-- Relevant video recommendation system
+### Homepage
+![Homepage](01-homepage.png)
 
-## Future Scope
+### Diagnostic Test
+![Diagnostic Test](02-diagnostic-test.png)
 
-- Fully dynamic animated video generation
-- Learning progress analytics
-- Multi-subject scalability
-- Long-term retention tracking
+### Assessment Result
+![Assessment Result](03-assessment-result.png)
 
-## Vision
+### Doubt Submission
+![Doubt Submission](04-doubt-submission.png)
 
-To transition education from memorization-based learning to adaptive, comprehension-driven understanding.
+### Generated Explanation
+![Generated Explanation](05-generated-explanation.png)
+
+### Video Recommendations
+![Video Recommendations](06-video-recommendations.png)
+
+### Related Questions
+![Related Questions](07-related-questions.png)
+
+---
+
+## 🛠 System Design Focus
+
+- Adaptive logic-based content structuring  
+- AI-assisted explanation generation  
+- Context-aware recommendation flow  
+- Structured UI/UX for learning clarity  
+
+---
+
+## 🎯 Vision
+
+To build a learning system that adapts to the student — not the other way around.
