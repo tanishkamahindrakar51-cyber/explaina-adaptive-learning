@@ -68,6 +68,19 @@ Explaina adapts learning dynamically by:
 
 ---
 
+## ⚙️ Implementation Approach
+
+The system follows a structured adaptive pipeline:
+
+- Diagnostic scoring logic determines user comprehension tier.
+- Conditional content branching adjusts explanation depth.
+- AI-assisted generation modifies tone and conceptual complexity.
+- Curated video recommendations are filtered based on topic and level.
+
+The focus was not only on content generation, but on building an adaptive decision flow that simulates personalized tutoring.
+
+---
+
 ## 🎯 Vision
 
 To build a learning system that adapts to the student — not the other way around.
